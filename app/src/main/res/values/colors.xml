@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_dark">#883997</color>
+    <color name="purple_light">#F2A4FF</color>
+    <color name="orange_button">#8BFF5722</color>
+    <color name="purple_buscador">#BA68C8 </color>
+    <color name="gris_borde">#7CD9DCE0</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#E27BED</color>
+    <color name="gris_dark">#7C77797A</color>
+</resources>
