@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Alma</string>
+    <string name="correo">Correo</string>
+    <string name="confirmar_correo">Confirmar correo</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="iniciarSesion">iniciar sesión</string>
+    <string name="olvidasteContrasenia">Olvidaste tu contraseña?</string>
+    <string name="registrarse">registrarse</string>
+    <string name="ciudad">Ciudad</string>
 </resources>
