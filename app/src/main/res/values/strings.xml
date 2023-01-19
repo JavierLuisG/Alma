@@ -5,7 +5,9 @@
     <string name="confirmar">Confirmar</string>
     <string name="contrasenia">Contraseña</string>
     <string name="iniciarSesion">iniciar sesión</string>
-    <string name="olvidasteContrasenia">Olvidaste tu contraseña?</string>
+    <string name="olvidasteContrasenia">¿Olvidaste tu contraseña?</string>
     <string name="registrarse">registrarse</string>
     <string name="ciudad">Ciudad</string>
+    <string name="direccion">Dirección</string>
+    <string name="telefono">Teléfono</string>
 </resources>
