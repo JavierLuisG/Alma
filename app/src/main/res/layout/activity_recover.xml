@@ -60,7 +60,8 @@
         android:fontFamily="@font/opensanslight"
         android:hint="@string/correo"
         android:textSize="20sp"
-        android:textStyle="bold">
+        android:textStyle="bold"
+        android:inputType="textEmailAddress">
     </EditText>
 
     <EditText
@@ -75,7 +76,8 @@
         android:fontFamily="@font/opensanslight"
         android:hint="@string/confirmar_correo"
         android:textSize="20sp"
-        android:textStyle="bold">
+        android:textStyle="bold"
+        android:inputType="textEmailAddress">
     </EditText>
 
     <Button
