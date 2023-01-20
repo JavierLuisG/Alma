@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -24,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:gravity="center"
-            android:background="@drawable/gradient_circle"
+            android:background="@drawable/gradient_rectangle"
             android:fontFamily="@font/opensanslight"
             android:text="MENU"
             android:textSize="25sp"
@@ -43,7 +44,7 @@
                 android:columnCount="1">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardTienda"
+                    android:id="@+id/cardStore"
                     android:layout_width="380dp"
                     android:layout_height="match_parent"
                     android:layout_margin="5dp"
@@ -65,7 +66,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="24dp"
                             android:gravity="center"
-                            android:background="@color/purple_dark"
+                            android:background="@drawable/gradient_rectangle"
                             android:fontFamily="@font/opensanslight"
                             android:text="TIENDA"
                             android:textSize="18sp"
@@ -79,7 +80,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardFavoritos"
+                    android:id="@+id/cardFavorites"
                     android:layout_width="380dp"
                     android:layout_height="match_parent"
                     android:layout_margin="5dp"
@@ -101,7 +102,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="24dp"
                             android:gravity="center"
-                            android:background="@color/purple_dark"
+                            android:background="@drawable/gradient_rectangle"
                             android:fontFamily="@font/opensanslight"
                             android:text="FAVORITOS"
                             android:textSize="18sp"
@@ -115,7 +116,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardCarrito"
+                    android:id="@+id/cardShoppingCart"
                     android:layout_width="380dp"
                     android:layout_height="match_parent"
                     android:layout_margin="5dp"
@@ -137,7 +138,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="24dp"
                             android:gravity="center"
-                            android:background="@color/purple_dark"
+                            android:background="@drawable/gradient_rectangle"
                             android:fontFamily="@font/opensanslight"
                             android:text="CARRITO"
                             android:textSize="18sp"
@@ -151,7 +152,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardUbicacion"
+                    android:id="@+id/cardLocation"
                     android:layout_width="380dp"
                     android:layout_height="match_parent"
                     android:layout_margin="5dp"
@@ -173,7 +174,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="24dp"
                             android:gravity="center"
-                            android:background="@color/purple_dark"
+                            android:background="@drawable/gradient_rectangle"
                             android:fontFamily="@font/opensanslight"
                             android:text="UBICACION"
                             android:textSize="18sp"
@@ -187,7 +188,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardPerfil"
+                    android:id="@+id/cardProfile"
                     android:layout_width="380dp"
                     android:layout_height="match_parent"
                     android:layout_margin="5dp"
@@ -209,7 +210,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="24dp"
                             android:gravity="center"
-                            android:background="@color/purple_dark"
+                            android:background="@drawable/gradient_rectangle"
                             android:fontFamily="@font/opensanslight"
                             android:text="PERFIL"
                             android:textSize="18sp"
@@ -223,9 +224,10 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardAtencionCliente"
+                    android:id="@+id/cardCustomerService"
                     android:layout_width="380dp"
                     android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
                     android:layout_margin="5dp"
                     android:layout_gravity="center"
                     app:cardCornerRadius="20dp">
@@ -245,7 +247,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="24dp"
                             android:gravity="center"
-                            android:background="@color/purple_dark"
+                            android:background="@drawable/gradient_rectangle"
                             android:fontFamily="@font/opensanslight"
                             android:text="ATENCION AL CLIENTE"
                             android:textSize="18sp"
