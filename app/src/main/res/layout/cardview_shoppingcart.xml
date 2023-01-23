@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardViewShoppingCart"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="380dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="15dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageViewProduct"
+            android:layout_width="180dp"
+            android:layout_height="155dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/gris_borde"
+            android:src="@drawable/logonegroalma">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/txtTituloPrenda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/imageViewProduct"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/opensanslight"
+            android:text="Titulo prenda"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtPrecio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/imageViewProduct"
+            android:layout_below="@id/txtTituloPrenda"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/opensanslight"
+            android:text="Precio"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtMaterial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/imageViewProduct"
+            android:layout_below="@id/txtPrecio"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/opensanslight"
+            android:text="Material"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/imageButtonShoppingCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtMaterial"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/icondelete">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/imageButtonFavorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtMaterial"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@+id/imageButtonShoppingCart"
+            android:background="@drawable/iconfavorite">
+
+        </ImageButton>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
