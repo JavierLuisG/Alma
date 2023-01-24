@@ -41,6 +41,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:columnCount="1">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerViewStore"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </androidx.recyclerview.widget.RecyclerView>
+
             </GridLayout>
 
         </ScrollView>
